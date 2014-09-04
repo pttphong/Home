@@ -1,0 +1,65 @@
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\ResolveAssemblyReference.cache
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmMain.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Login.frmUsers.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmToaHangBan.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLogin.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.Data.v9.2.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.Utils.v9.2.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.Data.v9.2.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraLayout.v9.2.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.Utils.v9.2.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraEditors.v9.2.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\DevExpress.XtraGrid.v9.2.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.PhieuXuatHangReports.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.CongNo.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.BaoCao.frmCongNo.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmThemMoiNhanVien.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmThemKhachHangMoi.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhapHangBanMoi.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+E:\Software\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+E:\Software\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\ResolveAssemblyReference.cache
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmToaHangTra.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.BaoCao.frmCongNo.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.PhieuXuatHangReports.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.CongNo.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhapHangBanMoi.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmThemKhachHangMoi.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmThemMoiNhanVien.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmMain.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmToaHangBan.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLogin.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Login.frmUsers.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+E:\Software\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLoading.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.HangNhapXuat.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBangLuong.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.XemCongNo.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmHang.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.TimKiemHang.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.SQLData.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmToaHangTra.resources
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Shared.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.Shared.xml
+E:\Window Forms\QuanLyBanHang\QuanLyBanHang\bin\Debug\CrystalDecisions.ReportSource.xml

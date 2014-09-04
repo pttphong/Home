@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57C823E6-3A10-4D24-953F-0C6C3CFB0395}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyBanHang</RootNamespace>
+    <AssemblyName>QuanLyBanHang</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="microsoft.sqlserver.batchparser, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\phong\Desktop\microsoft.sqlserver.batchparser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoEnum, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_code\BanHangCore.cs" />
+    <Compile Include="App_code\DAO\BaseDAO.cs" />
+    <Compile Include="App_code\DataReaderExtensions.cs" />
+    <Compile Include="App_code\DTO\GeneralDTO.cs" />
+    <Compile Include="App_code\DAO\GeneralDAO.cs" />
+    <Compile Include="App_code\FormLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App_code\MonthYearEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_code\NewPopupContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App_code\PopupContainerEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_code\Utils.cs" />
+    <Compile Include="App_Data\QLBanHang.cs">
+      <DependentUpon>QLBanHang.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Data\QLBanHang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBanHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\frmBangLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\frmBangLuong.Designer.cs">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\frmHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\frmHang.Designer.cs">
+      <DependentUpon>frmHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\frmToaHangTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\frmToaHangTra.designer.cs">
+      <DependentUpon>frmToaHangTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\HangNhapXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\HangNhapXuat.Designer.cs">
+      <DependentUpon>HangNhapXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\TimKiemHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\TimKiemHang.Designer.cs">
+      <DependentUpon>TimKiemHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\PhieuHangTra1.cs">
+      <DependentUpon>PhieuHangTra1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHang3.cs">
+      <DependentUpon>PhieuXuatHang3.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHang2.cs">
+      <DependentUpon>PhieuXuatHang2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHang1.cs">
+      <DependentUpon>PhieuXuatHang1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BaoCao\PhieuHangTra.cs">
+      <DependentUpon>PhieuHangTra.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BaoCao\frmCongNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\frmCongNo.Designer.cs">
+      <DependentUpon>frmCongNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhieuXuatHang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHangReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\PhieuXuatHangReports.Designer.cs">
+      <DependentUpon>PhieuXuatHangReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CongNo\CongNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CongNo\CongNo.Designer.cs">
+      <DependentUpon>CongNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CongNo\XemCongNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CongNo\XemCongNo.Designer.cs">
+      <DependentUpon>XemCongNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNew\frmNhapHangBanMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNew\frmNhapHangBanMoi.Designer.cs">
+      <DependentUpon>frmNhapHangBanMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNew\frmThemKhachHangMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNew\frmThemKhachHangMoi.Designer.cs">
+      <DependentUpon>frmThemKhachHangMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNew\frmThemMoiNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNew\frmThemMoiNhanVien.Designer.cs">
+      <DependentUpon>frmThemMoiNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BanHang\frmToaHangBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanHang\frmToaHangBan.Designer.cs">
+      <DependentUpon>frmToaHangBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="App_code\FormLoading.resx">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\frmBangLuong.resx">
+      <DependentUpon>frmBangLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\frmHang.resx">
+      <DependentUpon>frmHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\frmToaHangTra.resx">
+      <DependentUpon>frmToaHangTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\HangNhapXuat.resx">
+      <DependentUpon>HangNhapXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\TimKiemHang.resx">
+      <DependentUpon>TimKiemHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuHangTra1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuHangTra1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuXuatHang3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuXuatHang3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuXuatHang2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuXuatHang2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuXuatHang1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuXuatHang1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuHangTra.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuHangTra.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\frmCongNo.resx">
+      <DependentUpon>frmCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuXuatHang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PhieuXuatHang.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\PhieuXuatHangReports.resx">
+      <DependentUpon>PhieuXuatHangReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CongNo\CongNo.resx">
+      <DependentUpon>CongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CongNo\XemCongNo.resx">
+      <DependentUpon>XemCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNew\frmNhapHangBanMoi.resx">
+      <DependentUpon>frmNhapHangBanMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNew\frmThemKhachHangMoi.resx">
+      <DependentUpon>frmThemKhachHangMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNew\frmThemMoiNhanVien.resx">
+      <DependentUpon>frmThemMoiNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BanHang\frmToaHangBan.resx">
+      <DependentUpon>frmToaHangBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL\SQLData.resx">
+      <DependentUpon>SQLData.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SQL\SQLData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL\SQLData.designer.cs">
+      <DependentUpon>SQLData.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\key-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\key-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\QLBanHang.xsc">
+      <DependentUpon>QLBanHang.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\QLBanHang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLBanHang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Data\QLBanHang.xss">
+      <DependentUpon>QLBanHang.xsd</DependentUpon>
+    </None>
+    <None Include="icons\Hourglass_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\Printer_Picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\Person_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\user-customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sql1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

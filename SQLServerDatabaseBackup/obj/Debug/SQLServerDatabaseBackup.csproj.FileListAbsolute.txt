@@ -1,0 +1,13 @@
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\SQLServerDatabaseBackup.exe
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\SQLServerDatabaseBackup.pdb
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\ResolveAssemblyReference.cache
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\SQLServerDatabaseBackup.frmMain.resources
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\SQLServerDatabaseBackup.Properties.Resources.resources
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\SQLServerDatabaseBackup.csproj.GenerateResource.Cache
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\SQLServerDatabaseBackup.exe
+E:\Window Forms\SQLServerDatabaseBackup\obj\Debug\SQLServerDatabaseBackup.pdb
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\microsoft.sqlserver.batchparser.dll
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\Microsoft.SqlServer.Smo.dll
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+E:\Window Forms\SQLServerDatabaseBackup\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
